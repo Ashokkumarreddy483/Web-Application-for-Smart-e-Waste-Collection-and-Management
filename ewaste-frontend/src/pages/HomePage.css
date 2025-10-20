@@ -1,0 +1,96 @@
+/* General Styles */
+section {
+  padding: 60px 20px;
+}
+h1, h2, h3, h4 {
+  margin-bottom: 20px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Hero Section */
+.hero-section {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #f0f8ff;
+}
+.hero-section img {
+  border-radius: 15px;
+  max-width: 900px;
+}
+
+/* Cards (Services, Categories, Testimonials) */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.card {
+  flex: 1 1 300px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  background-color: #fff;
+}
+
+/* Stats Section */
+.stats-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  text-align: center;
+}
+
+/* Contact Form */
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #333;
+  color: #fff;
+}
+footer a {
+  color: #fff;
+  margin-right: 15px;
+}
+
+/* Media Queries */
+
+/* Laptop */
+@media (max-width: 1024px) {
+  .card {
+    flex: 1 1 45%;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .card {
+    flex: 1 1 100%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+  .hero-section p {
+    font-size: 1rem;
+  }
+}
